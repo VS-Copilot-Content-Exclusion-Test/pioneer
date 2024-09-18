@@ -15,6 +15,7 @@
 struct SDL_Surface;
 class GalaxyGenerator;
 
+#pragma pack(push, 4)
 class Galaxy : public RefCounted {
 protected:
 	friend class GalaxyGenerator;
@@ -66,6 +67,7 @@ private:
 	FactionsDatabase m_factions;
 	CustomSystemsDatabase m_customSystems;
 };
+#pragma pack(pop)
 
 class DensityMapGalaxy : public Galaxy {
 private:

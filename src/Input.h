@@ -76,12 +76,12 @@ namespace Input {
 	};
 
 	struct JoystickInfo {
-		struct Axis {
-			float value = 0.0;
-			float deadzone = 0.1;
-			float curve = 1.0;
-			bool zeroToOne = false;
-		};
+        struct Axis {
+            float value = 0.0f;
+            float deadzone = 0.1f;
+            float curve = 1.0f;
+            bool zeroToOne = false;
+        };
 
 		SDL_Joystick *joystick;
 		SDL_JoystickGUID guid;
