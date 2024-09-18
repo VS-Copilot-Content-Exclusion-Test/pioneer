@@ -25,6 +25,7 @@ class CustomSystem;
 // doubles - all masses in Kg, all lengths in meters
 // fixed - any mad scheme
 
+#pragma pack(push, 4)
 class StarSystem : public RefCounted {
 public:
 	friend class SystemBody;
@@ -162,6 +163,7 @@ private:
 
 	StarSystemCache *m_cache;
 };
+#pragma pack(pop)
 
 class StarSystem::GeneratorAPI : public StarSystem {
 private:
