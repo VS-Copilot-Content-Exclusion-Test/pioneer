@@ -4,7 +4,6 @@ add_definitions(-DIMGUI_IMPL_OPENGL_LOADER_GLEW=1)
 add_library(${PROJECT_NAME}
 	imgui.cpp
 	imgui_draw.cpp
-	imgui_demo.cpp
 	imgui_tables.cpp
 	imgui_widgets.cpp
 	imgui_stdlib.cpp
