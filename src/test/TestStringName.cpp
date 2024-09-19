@@ -186,4 +186,14 @@ TEST_CASE("StringName")
 		StringTable::Get()->Reclaim(true);
 		CHECK(StringTable::Get()->Size() == 0);
 	}
+
+	SUBCASE("Equality")
+	{
+		StringName a("this is a test");
+		StringName b("this is a test");
+		StringName c("this is a test 2");
+		CHECK(a == b);
+		CHECK(a != c);
+		CHECK(b != c);
+	}
 }
