@@ -36,12 +36,13 @@ static const float s_rangeTable[eMaxNumAtmosphereSounds][2] = {
 	{ 4.0f, 1.0f / (15.0f - 7.0f) } // 8
 };
 
-static const Uint32 NUM_SURFACE_LIFE_SOUNDS = 12;
+static const Uint32 NUM_SURFACE_LIFE_SOUNDS = 13;
 static const char *s_surfaceLifeSounds[NUM_SURFACE_LIFE_SOUNDS] = {
 	"Wind", "Thunder_1", "Thunder_2", "Thunder_3",
 	"Thunder_4", "Storm", "Rain_Light", "River",
 	"RainForestIntroducedNight", "RainForestIntroduced",
-	"NormalForestIntroduced", "RainForestIndigeniusNight"
+	"NormalForestIntroduced", "RainForestIndigeniusNight",
+	"Ocean_Shore"
 };
 
 static const Uint32 NUM_SURFACE_DEAD_SOUNDS = 12;
