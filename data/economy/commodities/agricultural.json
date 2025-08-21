@@ -31,6 +31,13 @@
 			"producer": "agricultural",
 			"price": 41
 		},
+		"carrots": {
+			"l10n_key": "CARROTS",
+			"inputs": [ "farm_machinery", "fertilizer" ],
+			"consumable": true,
+			"producer": "agricultural",
+			"price": 95
+		},
 		"slaves": {
 			"l10n_key": "SLAVES",
 			"inputs": [ ],

@@ -31,6 +31,14 @@
     "description": "This is an artistic description of the commodity. Translate as you deem appropriate or come up with your own description, long or short, its up to you.",
     "message": "Carbon is one of the most diverse elements we know of. Used in almost everything from plastics to alloys and sometimes even power production, carbon is an inexpensive, but important commodity. As such, almost all industrial settlements import carbon ore."
   },
+  "CARROTS": {
+    "description": "",
+    "message": "Carrots"
+  },
+  "CARROTS_DESCRIPTION": {
+    "description": "This is an artistic description of the commodity. Translate as you deem appropriate or come up with your own description, long or short, its up to you.",
+    "message": "These orange root vegetables are rich in vitamins and nutrients, particularly beta-carotene. Popular across human space for their sweet taste and long shelf life, carrots remain a staple food crop on agricultural worlds and an important export commodity."
+  },
   "COMPUTERS": {
     "description": "",
     "message": "Computers"

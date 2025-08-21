@@ -12,6 +12,10 @@
 			"random": [ 32, 128 ],
 			"locally_produced_min": 0.5
 		},
+		"carrots": {
+			"random": [ 32, 128 ],
+			"locally_produced_min": 0.5
+		},
 		"animal_meat": {
 			"random": [ 32, 128 ],
 			"locally_produced_min": 0.5
